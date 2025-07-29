@@ -5,21 +5,25 @@ To identify the most representative benchmark index (such as NIFTY IT, NIFTY BAN
 
 Tools Used-
 
-   Tool	                     Purpose
-Python + Jupyter	 |  Analysis environment
-yfinance	         |  Fetching historical market data
-pandas/numpy	     |  Data wrangling
-scikit-learn	     |  Linear regression modeling
-matplotlib/seaborn |  Visualizing regression results
 
-Outputs-
+| Tool                     | Purpose                         |
+| ------------------------ | ------------------------------- |
+| **Python + Jupyter**     | Analysis environment            |
+| **yfinance**             | Fetching historical market data |
+| **pandas / numpy**       | Data wrangling                  |
+| **scikit-learn**         | Linear regression modeling      |
+| **matplotlib / seaborn** | Visualizing regression results  |
 
-      File Name	                                Description
-regression_results_yfinance.csv	  | All stock–index regression results
-best_index_per_stock_yfinance.csv	| Best index assigned to each stock
-summary_by_index.csv	            | Average regression metrics per index
+
+| File Name                           | Description                          |
+| ----------------------------------- | ------------------------------------ |
+| `regression_results_yfinance.csv`   | All stock–index regression results   |
+| `best_index_per_stock_yfinance.csv` | Best index assigned to each stock    |
+| `summary_by_index.csv`              | Average regression metrics per index |
+
 
 _**Run the jupyter notebook at your system to get all the plots.**_
+
 
 Reasoning Behind Final Index Assignment-
 The index assigned to each stock was selected using three criteria: highest R², high correlation, and a reasonable beta (to avoid overfitting or non-economic relationships). This ensures that the selected index not only fits statistically, but also reflects the stock’s underlying market or sector exposure.
