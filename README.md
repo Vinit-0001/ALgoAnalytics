@@ -28,10 +28,11 @@ _**Run the jupyter notebook at your system to get all the plots.**_
 Reasoning Behind Final Index Assignment-
 The index assigned to each stock was selected using three criteria: highest R², high correlation, and a reasonable beta (to avoid overfitting or non-economic relationships). This ensures that the selected index not only fits statistically, but also reflects the stock’s underlying market or sector exposure.
 
+
+
 **Final Conclusions per Stock**-
 
-
-
+------------------------------
 _🏦 NIFTY BANK (^NSEBANK)_-
 
 These stocks showed high R², strong correlation, and reasonable beta values when regressed against the NIFTY BANK index:
@@ -53,7 +54,7 @@ INFY.NS, TCS.NS, TECHM.NS, HCLTECH.NS, WIPRO.NS
 📌 Conclusion: IT sector stocks are very tightly coupled with ^CNXIT, with some of the highest correlation and R² values in the entire analysis.
 
 
-
+-----------------------------
 _🚘 NIFTY AUTO (^CNXAUTO)_-
 
 Auto sector stocks showed strong sensitivity to the ^CNXAUTO index:
@@ -63,7 +64,7 @@ M&M.NS, TATAMOTORS.NS, MARUTI.NS, HEROMOTOCO.NS, EICHERMOT.NS
 📌 Conclusion: Automotive companies are best explained by ^CNXAUTO, indicating they are strongly sector-driven.
 
 
-
+-----------------------------
 _🧴 NIFTY FMCG (^CNXFMCG)_-
 
 FMCG sector leaders aligned well with ^CNXFMCG:
@@ -72,7 +73,7 @@ ITC.NS, HINDUNILVR.NS, NESTLEIND.NS, TATACONSUM.NS
 
 📌 Conclusion: Consumer goods companies follow the FMCG sector closely in both correlation and R², confirming the index’s relevance.
 
-
+-------------------------------
 
 _💊 NIFTY PHARMA (^CNXPHARMA)_- 
 
@@ -83,7 +84,7 @@ SUNPHARMA.NS, CIPLA.NS, DRREDDY.NS
 📌 Conclusion: These stocks are clearly explained by the pharma index, showing tight sectoral behavior.
 
 
-
+-----------------------------
 _🌐 NIFTY 50 (^NSEI) – Broad Market Movers_-
 
 These companies did not align strongly with a single sector index but showed their best fit with the overall NIFTY 50:
@@ -92,7 +93,7 @@ RELIANCE.NS, BAJAJFINSV.NS, BAJFINANCE.NS, JSWSTEEL.NS, GRASIM.NS, ADANIENT.NS, 
 
 📌 Conclusion: These diversified or multi-sector companies are best explained by the general market movement rather than a single sector, making ^NSEI the most suitable index.
 
-
+---------------------------------
 
 _**Summary Takeaway**_ - 
 
