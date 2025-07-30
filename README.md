@@ -31,6 +31,7 @@ The index assigned to each stock was selected using three criteria: highest R²,
 **Final Conclusions per Stock**-
 
 
+
 _🏦 NIFTY BANK (^NSEBANK)_-
 
 These stocks showed high R², strong correlation, and reasonable beta values when regressed against the NIFTY BANK index:
@@ -42,7 +43,7 @@ INDUSINDBK.NS (lower R², but still most aligned with banking sector)
 📌 Conclusion: These stocks are most influenced by movements in the banking sector, making ^NSEBANK the best explanatory index.
 
 
-
+------------------------------
 _💻 NIFTY IT (^CNXIT)_-
 
 High-performing IT sector stocks exhibited strong R² (often > 0.7) and high correlation:
