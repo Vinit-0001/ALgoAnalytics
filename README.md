@@ -24,12 +24,12 @@ Tools Used-
 
 _**Run the jupyter notebook at your system to get all the plots.**_
 
-
-Reasoning Behind Final Index Assignment-
+--------------------
+_**Reasoning Behind Final Index Assignment-**_
 The index assigned to each stock was selected using three criteria: highest R², high correlation, and a reasonable beta (to avoid overfitting or non-economic relationships). This ensures that the selected index not only fits statistically, but also reflects the stock’s underlying market or sector exposure.
 
 
-
+-------------------------
 **Final Conclusions per Stock**-
 
 ------------------------------
